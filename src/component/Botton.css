@@ -1,0 +1,14 @@
+/* App.css */
+.carousel-item {
+    text-align: center;
+  }
+  
+  .carousel-caption {
+    position: static;
+    bottom: auto;
+  }
+  
+  .carousel-caption p {
+    font-style: italic;
+  }
+  

@@ -1,0 +1,29 @@
+/* App.css */
+.footer {
+    background-color:rgb(10,59,73); 
+  }
+  
+  .footer h5 {
+    font-weight: bold; 
+  }
+  
+  .footer p {
+    line-height: 1.6; 
+  }
+  
+  .footer a {
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #f8f9fa; /* Light color on hover */
+  }
+  
+  .footer .social-icons i {
+    transition: color 0.3s ease;
+  }
+  
+  .footer .social-icons i:hover {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
