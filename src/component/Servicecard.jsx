@@ -7,6 +7,7 @@ import './card2.css';
 
 function Servicecard() {
   return (
+    
     <div className="service-fluid container mt-5 shadow-sm">
       <h4 className='text-center'>We Also sell:</h4>
       <div className="row justify-content-center">
