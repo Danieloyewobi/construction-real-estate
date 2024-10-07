@@ -1,10 +1,11 @@
 // import React from 'react'
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import About from "./Routes/About";
-import Contact from "./Routes/Contact";
+import Contact from "./Routes/ContactUs";
 import FAQs from "./Routes/FAQs";
 import Service from "./Routes/Service";
+import Properties from "./Routes/Properties";
+import AboutUs from "./Routes/AboutUs";
 // import Home from "./Home"
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
        <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/service" element={<Service/>} />
-        <Route path="/about" element={<About/>}/>
+        <Route path="/Properties" element={<Properties/>}/>
+        <Route path="/about" element={<AboutUs/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/faq" element={<FAQs/>}/>
        </Routes>

@@ -8,7 +8,7 @@ function FAQs() {
   return (
     <>
       <Nav />
-      <div className="container mt-5 p-5 shadow-lg">
+      <div className="container mt-5 p-5 shadow-s ">
         <h2 className="text-center mb-4">Frequently Asked Questions</h2>
         <Accordion>
           <Accordion.Item eventKey="0">

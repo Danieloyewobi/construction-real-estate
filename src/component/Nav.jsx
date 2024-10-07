@@ -22,10 +22,13 @@ function Nav() {
                 <a className="nav-link text-light" href="#" style={{ transition: 'color 0.3s ease' }}><Link className="text-light" style={{textDecoration:'none'}} to="/service">Service</Link></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#" style={{ transition: 'color 0.3s ease' }}><Link className="text-light" style={{textDecoration:'none'}}About to="/about">About</Link></a>
+                <a className="nav-link text-light" href="#" style={{ transition: 'color 0.3s ease' }}><Link className="text-light" style={{textDecoration:'none'}} to="/Properties">Properties</Link></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#" style={{ transition: 'color 0.3s ease' }}><Link className="text-light" style={{textDecoration:'none'}} to="/contact">Contact</Link></a>
+                <a className="nav-link text-light" href="#" style={{ transition: 'color 0.3s ease' }}><Link className="text-light" style={{textDecoration:'none'}}to="/about">AboutUs</Link></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-light" href="#" style={{ transition: 'color 0.3s ease' }}><Link className="text-light" style={{textDecoration:'none'}} to="/contact">Contact Us</Link></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-light" href="#" style={{ transition: 'color 0.3s ease' }}><Link className="text-light" style={{textDecoration:'none'}} to="/faq">FAQs</Link></a>

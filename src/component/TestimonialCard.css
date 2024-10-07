@@ -1,0 +1,30 @@
+.testimonial-section {
+  background-color: #f8f9fa;
+}
+
+.testimonial-card {
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-card .card-img-top {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 4px solid rgb(10, 59, 73);
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: rgb(10, 59, 73);
+}
+
+.testimonial-card .card-text {
+  font-style: italic;
+  color: #6c757d;
+}

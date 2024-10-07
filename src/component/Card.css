@@ -1,26 +1,21 @@
 .card {
-    opacity: 0;
-    transform: translateY(20px); /* Start below the original position */
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 30px; /* Add some space between cards */
+}
+
+.card.animate {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px; /* Adjust space for smaller screens */
   }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .card.animate {
-    animation: fadeInUp 0.5s ease-out forwards; /* Animate with keyframes */
-  }
-  
-  @media (max-width: 768px){
-    .row{
-       gap: 30px;
-    }
-  }
+}

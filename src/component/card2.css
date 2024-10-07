@@ -1,8 +1,0 @@
-.animate-card {
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .animate-card:hover {
-    transform: scale(1.05);
-  }
-  
